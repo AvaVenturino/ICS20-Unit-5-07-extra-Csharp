@@ -9,7 +9,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        
+
         int num;
         var sum = 0;
 
@@ -17,9 +17,9 @@ class Program
         Console.Write("Input a positive integer: ");
         num = Convert.ToInt32(Console.ReadLine());
 
-        for (var counter = 1; counter <= num; counter++) {
+        for (var counter = 1; counter <= num; counter++)
         sum += counter;
-        }
-        Console.WriteLine("The answer is: " + sum );
+
+        Console.WriteLine("The answer is: " + sum);
     }
 }
