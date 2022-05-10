@@ -18,7 +18,7 @@ class Program
         num = Convert.ToInt32(Console.ReadLine());
 
         for (var counter = 1; counter <= num; counter++)
-        sum += counter;
+            sum += counter;
 
         Console.WriteLine("The answer is: " + sum);
     }
